@@ -1,0 +1,5 @@
+train: Data/yolo_dataset/images/train
+val: Data/yolo_dataset/images/val
+
+nc: 1
+names: ['person']

@@ -2,3 +2,8 @@
 /Models/venv/
 .DS_STORE
 /Models/.DS_STORE
+
+
+
+/Database/mysql-data/
+.env

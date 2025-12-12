@@ -1,0 +1,11 @@
+version: '3.9'
+
+services:
+  red5:
+    build: .
+    container_name: red5-custom
+    ports:
+      - "1935:1935"   # RTMP
+      - "5080:5080"   # Web/Admin
+    volumes:
+      - .:/opt/red5   # Mount local folder so changes reflect in container
